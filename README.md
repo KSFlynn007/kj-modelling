@@ -1,5 +1,9 @@
 # kj-modelling
 
+## Packages Used
+1. Bootstrap v.5.0.2 via CDN, no jQuery
+2. [Swiper](https://swiperjs.com/) v.7.0.2
+
 ## Requests
 Client requested the following:
 1. Small web application to act as Instagram replacement to send to model bookings
