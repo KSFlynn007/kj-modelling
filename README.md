@@ -12,3 +12,4 @@ Client requested the following:
 4. Client did not want to pay for custom domain or hosting fees.
 
 ## Hosting
+[![Netlify Status](https://api.netlify.com/api/v1/badges/4225893c-5f0f-42e2-9f6d-4c774cfb95af/deploy-status)](https://app.netlify.com/sites/kjmodelling/deploys)
