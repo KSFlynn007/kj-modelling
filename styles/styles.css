@@ -2,8 +2,8 @@
 
 :root {
   --black: #000;
-  --white: #fff;
-  --red: #f2545bff;
+  --white: #cacaca;
+  --red: rgb(194, 68, 74);
   --yellow: #ffe387;
   --accent-font: "Caveat", cursive;
   --base-font: "Crimson Text", serif;
@@ -13,10 +13,12 @@ html,
 body {
   height: 100%;
   font-family: var(--accent-font);
+  font-size: 20px;
+  color: var(--red);
 }
 
 body {
-  background: var(--yellow);
+  background: var(--black);
   margin: 0;
   padding: 0;
 }
@@ -34,7 +36,7 @@ body {
 .swiper-slide {
   text-align: center;
   font-size: 18px;
-  background: #fff;
+  background: var(--white);
 
   /* Center slide text vertically */
   display: -webkit-box;
@@ -71,10 +73,9 @@ body {
   background: var(--red);
 }
 
-#bookMe {
-  position: absolute;
-  bottom: 5%;
-  left: 48%;
+#bookMe:hover {
+  background-color: var(--red);
+  border: 1px solid var(--red);
 }
 
 @media all and (max-width: 430px) {
@@ -87,8 +88,18 @@ body {
     display: absolute;
     top: 10%;
   }
+}
 
-  button {
-    left: 40%;
+@media all and (min-width: 767px) and (max-width: 888px) {
+  html,
+  body {
+    font-size: 15px;
+  }
+}
+
+@media all and (min-width: 889px) and (max-width: 1010px) {
+  html,
+  body {
+    font-size: 14px;
   }
 }
