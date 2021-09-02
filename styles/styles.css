@@ -1,12 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Caveat&family=Crimson+Text:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&display=swap");
 
 :root {
   --black: #000;
-  --white: #cacaca;
-  --red: rgb(194, 68, 74);
-  --yellow: #ffe387;
+  --white: #eeeaea;
+  --red: #c24249;
   --accent-font: "Caveat", cursive;
-  --base-font: "Crimson Text", serif;
 }
 
 html,
@@ -21,6 +19,14 @@ body {
   background: var(--black);
   margin: 0;
   padding: 0;
+}
+
+h1 {
+  font-weight: 700;
+}
+
+nav {
+  background-color: var(--white);
 }
 
 .mySwiper {
@@ -73,7 +79,7 @@ body {
   background: var(--red);
 }
 
-#bookMe:hover {
+.btn:hover {
   background-color: var(--red);
   border: 1px solid var(--red);
 }
@@ -102,4 +108,17 @@ body {
   body {
     font-size: 14px;
   }
+}
+
+#form {
+  background-color: var(--white);
+}
+
+.form-label {
+  font-size: 28px;
+}
+
+.form-control:focus {
+  border-color: var(--red);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px var(--red);
 }

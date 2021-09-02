@@ -11,3 +11,15 @@ var swiper = new Swiper(".mySwiper", {
         prevEl: ".swiper-button-prev",
     },
 });
+
+function toBook(){
+    window.location.href = 'booking.html'
+}
+
+function toHome(){
+    window.location.href = 'home.html'
+}
+
+function sendMessage(){
+    alert('howdy')
+}
