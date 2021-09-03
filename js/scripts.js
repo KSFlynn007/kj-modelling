@@ -19,7 +19,3 @@ function toBook(){
 function toHome(){
     window.location.href = 'home.html'
 }
-
-function sendMessage(){
-    alert('howdy')
-}
