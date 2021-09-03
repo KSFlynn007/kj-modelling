@@ -13,9 +13,9 @@ var swiper = new Swiper(".mySwiper", {
 });
 
 function toBook(){
-    window.location.href = 'booking.html'
+    window.location.href = '/booking/'
 }
 
 function toHome(){
-    window.location.href = 'home.html'
+    window.location.href = '/'
 }
