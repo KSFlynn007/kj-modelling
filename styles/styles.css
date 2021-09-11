@@ -86,11 +86,6 @@ nav {
 }
 
 @media all and (max-width: 430px) {
-  .swiper {
-    width: 70%;
-    height: 70%;
-  }
-
   .mySwiper {
     display: absolute;
     top: 10%;
@@ -101,6 +96,12 @@ nav {
   html,
   body {
     font-size: 15px;
+  }
+}
+
+@media all and (min-width: 800px) {
+  .swiper {
+    width: 50%;
   }
 }
 
