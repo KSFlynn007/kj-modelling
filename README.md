@@ -25,8 +25,8 @@ As this was a frontend only project, I needed to implement a form submission wit
 ### User Story: 
 
 ```
-When the user fills out the contact form and clicks the submit button
-And the user completes the ReCaptcha page
+Given the user fills out the contact form and clicks the submit button
+When the user completes the ReCaptcha page
 Then they will be redirected to a confirmation page
 And the email will be send to the user in a secure fashion without providing the client's contact info
 ```
